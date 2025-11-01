@@ -98,8 +98,8 @@ Specialized in **Kubernetes (EKS/AKS)**, **Terraform**, **Ansible**, **API Gatew
 ## 📫 Contact
 
 <p align="center">
-  <a href="mailto:nahejtoumi@gmail.com"><img src="https://img.shields.io/badge/Email-nahejtoumi%40gmail.com-red?logo=gmail" /></a>
-  <a href="https://linkedin.com/in/najeh-toumi"><img src="https://img.shields.io/badge/LinkedIn-Najeh%20Toumi-blue?logo=linkedin" /></a>
+  <a href="mailto:najeh.toumi.tn@gmail.com"><img src="https://img.shields.io/badge/Email-nahejtoumi%40gmail.com-red?logo=gmail" /></a>
+  <a href="https://www.linkedin.com/in/najeh-toumi-2646ba79/"><img src="https://img.shields.io/badge/LinkedIn-Najeh%20Toumi-blue?logo=linkedin" /></a>
   <a href="https://github.com/najeh-toumi-devops"><img src="https://img.shields.io/badge/GitHub-najeh--toumi--devops-black?logo=github" /></a>
 </p>
 
