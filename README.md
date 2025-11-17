@@ -89,12 +89,14 @@ Specialized in **Kubernetes (EKS/AKS)**, **Terraform**, **Ansible**, **API Gatew
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=najeh-toumi-devops&show_icons=true&theme=tokyonight" height="165">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=najeh-toumi-devops&layout=compact&theme=tokyonight" height="165">
+  <img src="https://github-readme-stats.vercel.app/api?username=najeh-toumi-devops&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&cache_seconds=86400" height="165" alt="Najeh Toumi's GitHub stats">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=najeh-toumi-devops&layout=compact&theme=tokyonight&langs_count=8&cache_seconds=86400" height="165" alt="Top languages">
 </p>
 
 
 ---
+
+> Note: If stats still appear incomplete, GitHub API rate limits or the public service cache can cause missing data. To include private contributions or avoid rate limits you can either deploy your own instance of `github-readme-stats` (https://github.com/anuraghazra/github-readme-stats) with a personal token, or use a GitHub Action to periodically regenerate/cache the images. Tell me if you want me to add the Action or configure a self-hosted instance.
 
 ## 📫 Contact
 

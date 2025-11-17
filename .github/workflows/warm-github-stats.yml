@@ -1,0 +1,28 @@
+name: Warm GitHub-Readme-Stats Cache
+
+on:
+  schedule:
+    - cron: '0 2 * * *' # daily at 02:00 UTC
+  workflow_dispatch: {}
+
+jobs:
+  warm-cache:
+    name: Warm Cache
+    runs-on: ubuntu-latest
+    steps:
+      - name: Curl GitHub stats image (profile)
+        run: |
+          curl -sS "https://github-readme-stats.vercel.app/api?username=najeh-toumi-devops&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&cache_seconds=86400" -o /dev/null || true
+
+      - name: Curl GitHub top-langs image
+        run: |
+          curl -sS "https://github-readme-stats.vercel.app/api/top-langs/?username=najeh-toumi-devops&layout=compact&theme=tokyonight&langs_count=8&cache_seconds=86400" -o /dev/null || true
+
+      - name: Done
+        run: echo "Cache warm requests completed"
+
+# Notes:
+# - This workflow simply sends GET requests to the public `github-readme-stats` image URLs to warm the provider cache.
+# - It cannot force the public service to include private repo data; for private contributions you must self-host
+#   `github-readme-stats` and supply a GitHub token to the server, or deploy it to a platform (Vercel, Heroku) and
+#   configure the token there. If you want, I can add a deployment workflow or instructions to self-host.
